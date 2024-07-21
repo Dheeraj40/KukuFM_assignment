@@ -1,0 +1,43 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .coverImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px; /* Adjust the gap between the two components as needed */
+  }
+  
+  .formContainer {
+    flex: 1; /* Allow this container to grow and take up space */
+    max-width: 400px; /* Set a maximum width for the form container */
+  }
+  
+  .listContainer {
+    flex: 2; /* Allow this container to take up more space */
+  }
+  

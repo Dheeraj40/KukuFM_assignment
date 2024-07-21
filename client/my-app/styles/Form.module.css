@@ -1,0 +1,28 @@
+
+.form {
+  margin-top: 20px;
+  padding: 20px; /* Add padding for inner spacing */
+  border: 1px solid #ddd; /* Border around the form */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Optional: Background color for better visibility */
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 350px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

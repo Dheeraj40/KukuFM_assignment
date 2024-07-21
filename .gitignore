@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Dependency directories
+client/my-app/node_modules/
+server/node_modules/
+
+# OS-specific files
+.DS_Store
